@@ -23,7 +23,7 @@ const Home = () => {
   return ( 
     <div className="Home">
       <BlogList blogs={blogs} title = "Welcome to my app"   handeleDelete={handeleDelete} />
-      <button onClick={() => {if(name === 'mario'){setName('Luigi')}else{setName('mario')} }}>change name</button>
+      <button onClick={() => {if(nae === 'mario'){setName('Luigi')}else{setName('mario')} }}>change name</button>
       <p>{name}</p>
     </div>
    );
