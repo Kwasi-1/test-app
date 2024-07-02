@@ -9,7 +9,7 @@ const Home = () => {
   ])
 
   const handeleDelete = (id) =>{
-    const newBlogs = blogs.filter((blog) => blog.id != id);
+    const newBlogs = blogs.filter((blog) => blog.id !== id);
     setBlogs(newBlogs);
   }
 
